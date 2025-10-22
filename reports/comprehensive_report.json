@@ -1,0 +1,81 @@
+{
+  "data_statistics": {
+    "total_sequences": 1801,
+    "average_sequence_length": 5.6624097723486955,
+    "behavior_distribution": {
+      "systematic": 1233,
+      "analyst": 477,
+      "focused": 90,
+      "explorer": 1
+    },
+    "unique_behavior_types": 4
+  },
+  "model_performance": {
+    "Random Forest": {
+      "score": 0.9806094182825484,
+      "type": "traditional"
+    },
+    "Gradient Boosting": {
+      "score": 0.9916897506925207,
+      "type": "traditional"
+    }
+  },
+  "interaction_patterns": {
+    "total_patterns": 10,
+    "top_patterns": [
+      {
+        "pattern": "('select', 'select', 'select')",
+        "count": 3573
+      },
+      {
+        "pattern": "('select', 'navigate', 'select')",
+        "count": 1138
+      },
+      {
+        "pattern": "('navigate', 'select', 'select')",
+        "count": 1061
+      },
+      {
+        "pattern": "('select', 'select', 'navigate')",
+        "count": 936
+      },
+      {
+        "pattern": "('assist', 'select', 'select')",
+        "count": 463
+      },
+      {
+        "pattern": "('select', 'assist', 'select')",
+        "count": 418
+      },
+      {
+        "pattern": "('select', 'select', 'assist')",
+        "count": 354
+      },
+      {
+        "pattern": "('select', 'select', 'deselect')",
+        "count": 279
+      },
+      {
+        "pattern": "('select', 'deselect', 'select')",
+        "count": 194
+      },
+      {
+        "pattern": "('select', 'select', 'modify_selection')",
+        "count": 154
+      }
+    ]
+  },
+  "system_info": {
+    "python_version": "3.x",
+    "libraries_used": [
+      "scikit-learn",
+      "torch",
+      "pandas",
+      "numpy",
+      "matplotlib",
+      "seaborn"
+    ],
+    "data_source": "projection-space-explorer",
+    "export_timestamp": "2025-10-21T17:38:20.027410"
+  }
+}

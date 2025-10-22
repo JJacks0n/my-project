@@ -1,0 +1,74 @@
+{
+  "model_name": "Random Forest",
+  "accuracy": 0.9806094182825484,
+  "macro_avg": {
+    "precision": 0.7348658206781776,
+    "recall": 0.698401462667767,
+    "f1-score": 0.7140971303204703,
+    "support": 361.0
+  },
+  "weighted_avg": {
+    "precision": 0.9784225105700539,
+    "recall": 0.9806094182825484,
+    "f1-score": 0.9789732512887511,
+    "support": 361.0
+  },
+  "per_class_metrics": {
+    "analyst": {
+      "precision": 0.9473684210526315,
+      "recall": 0.989010989010989,
+      "f1-score": 0.967741935483871,
+      "support": 91.0
+    },
+    "explorer": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "focused": {
+      "precision": 1.0,
+      "recall": 0.8125,
+      "f1-score": 0.896551724137931,
+      "support": 16.0
+    },
+    "systematic": {
+      "precision": 0.9920948616600791,
+      "recall": 0.9920948616600791,
+      "f1-score": 0.9920948616600791,
+      "support": 253.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      90,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      13,
+      1
+    ],
+    [
+      2,
+      0,
+      0,
+      251
+    ]
+  ],
+  "class_labels": [
+    "analyst",
+    "explorer",
+    "focused",
+    "systematic"
+  ]
+}
