@@ -28,8 +28,8 @@ The system is based on research from:
 
 1. **Clone the repository**:
 ```bash
-git clone <repository-url>
-cd predictive-provenance
+git clone https://github.com/JJacks0n/my-project.git
+code my-project
 ```
 
 2. **Install dependencies**:
